@@ -1,0 +1,22 @@
+.form-container {
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin: 5px 0; /* Adiciona espaçamento entre os campos */
+    border: 5px solid #ccc; /* Define uma borda padrão */
+    border-radius: 0px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+}
+
+/* Estilizando o botão */
+button {
+    width: 100%; /* Faz o botão ocupar toda a largura */
+    padding: 10px; /* Adiciona preenchimento interno */
+    background-color: #6f42c1; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+    background-color: #5a32a1; /* Cor do botão ao passar o mouse */
+}
